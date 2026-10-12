@@ -15,6 +15,6 @@ public class TestController {
     public Map<String, String> healthCheck() {
         return Map.of(
                 "status", "OK",
-                "message", "Spring Boot 서버가 정상 작동 중");
+                "message", "Spring Boot 서버가 정상 작동 중!");
     }
 }
