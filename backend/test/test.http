@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/users/reset-password
+Content-Type: application/json
+
+{
+  "userId": "testuser",
+  "email": "test@example.com",
+  "newPassword": "1234!",
+  "newPasswordConfirm": "1234!"
+}

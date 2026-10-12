@@ -1,0 +1,7 @@
+POST http://localhost:8080/api/users/find-id
+Content-Type: application/json
+
+{
+    "name": "홍길동",
+    "email": "test@example.com"
+}
